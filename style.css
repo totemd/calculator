@@ -31,6 +31,7 @@ html {
 .calculation {
     font-size: initial;
     margin: 0px 4px 0px 0px;
+    white-space: pre-line;
 }
 
 .result {
@@ -69,16 +70,12 @@ button:active {
     box-shadow: none;
 }
 
-.operand {
+.operand, .floating-point, .toggle-sign {
     background-color: var(--mint-cream);
 }
 
 .operator {
     background-color: var(--naples-yellow);
-}
-
-.modifier {
-    background-color: var(--mint-cream);
 }
 
 .function {
